@@ -1,28 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Regular from './Regular.js'
+import './Regular.css'
+
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+
+    /*state = {
+        fontColor: 'black',
+        bgColor: 'white',
+    }
+
+    FrogColor = () => {
+        var newFont = '#39D1B4';
+        var newBG = '#39D1B4';
+        this.setState({
+            fontColor: newFont,
+            bgColor: newBG,
+        });
+        console.log("font: " + this.state.fontColor + " bg: " + this.state.bgColor);
+    }*/
+
+    render() {
+        return (
+            <Regular></Regular>
+        );
+    }
 }
 
 export default App;
