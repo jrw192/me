@@ -7,8 +7,8 @@ body {
 	width: 100%;
 }
 
-#buttons {
-	width: 100%;
+#options {
+	width: auto;
 }
 
 #title, #profile {
@@ -23,7 +23,7 @@ body {
 	font-size: 1.5em;
 
 	line-height: .9;
-	padding-top: auto;
+	padding-left: 10%;
 	width: 40%;
 }
 
@@ -35,7 +35,7 @@ body {
 
 #profile {
 	font-size: 0.9em;
-	margin-left: 10%;
+	margin-left: 5%;
 
 }
 

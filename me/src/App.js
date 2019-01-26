@@ -1,28 +1,40 @@
 import React, { Component } from 'react';
-import Regular from './Regular.js'
-import './Regular.css'
+import Regular from './Regular.js';
+import StyleOptions from './StyleOptions.js';
+import './Regular.css';
 
+
+let themes = {
+    '0' : ['white', 'black'],
+    '1' : ['green', 'green'],
+    '2' : ['#FFD7F8', '#DCE5FF']
+}
 
 class App extends Component {
-
-    /*state = {
-        fontColor: 'black',
-        bgColor: 'white',
+    constructor(props) {
+        super(props)
+        this.state = {
+            fontColor: 'black',
+            bgColor: 'white',
+        }
     }
 
-    FrogColor = () => {
-        var newFont = '#39D1B4';
-        var newBG = '#39D1B4';
+    setColor = (bg, font) => {
         this.setState({
-            fontColor: newFont,
-            bgColor: newBG,
+            fontColor: font,
+            bgColor: bg,
         });
-        console.log("font: " + this.state.fontColor + " bg: " + this.state.bgColor);
-    }*/
+    }
 
     render() {
         return (
-            <Regular></Regular>
+            <div>
+                <StyleOptions id="options" setColor={this.setColor}
+                                themes={themes}></StyleOptions>
+                <Regular fontColor={this.state.fontColor}
+                        bgColor={this.state.bgColor}
+                        setColor={this.setColor}></Regular>
+            </div>
         );
     }
 }
