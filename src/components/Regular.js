@@ -18,7 +18,7 @@ export default class Regular extends React.Component {
 
 				<div id="profile">
 						<p className="header">future:</p>
-						<p className="item"> engineer @ google [fall 2019];</p>
+						<p className="item">software engineer @ google [fall 2019];</p>
 						<p className="header">present:</p>
 						<p className="item">computer science + design @ northwestern university [2015-2019];<br/></p>
 						<p className="header">past:</p>
