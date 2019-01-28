@@ -12,7 +12,7 @@ export default class Regular extends React.Component {
 				<div id="title">
 					<div id="title_content">
 						<h1 id="name">jodie wei</h1>
-						<h3 id="tagline">likes software, art, and making pointless apps<br/><br/><br/><br/><br/></h3>
+						<h3 id="tagline">likes software, art, and tomato scrambled eggs<br/><br/><br/><br/><br/></h3>
 					</div>
 				</div>
 
