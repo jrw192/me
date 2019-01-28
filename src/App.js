@@ -54,7 +54,7 @@ class App extends Component {
     render() {
         console.log("projects: " , myProjects);
         return (
-            <div id="appDiv">
+            <div id="appDiv" style={{background: this.state.bgColor, color: this.state.fontColor}}>
                 
                 <StyleOptions id="options" setColor={this.setColor}
                                 showCanvas={this.showCanvas}
