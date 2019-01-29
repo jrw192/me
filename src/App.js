@@ -14,6 +14,16 @@ let themes = {
     '3' : 'paint'
 }
 
+let colors = [
+    'red',
+    'yellow',
+    'blue',
+    'green',
+    'purple',
+    'orange',
+    'pink',
+]
+
 var dataStr = JSON.stringify(data);
 var myProjects = JSON.parse(dataStr);
 
@@ -23,36 +33,44 @@ class App extends Component {
         this.state = {
             fontColor: 'black',
             bgColor: 'white',
+            nameColor: 'black',
             canvas: false,
         }
-        this.setColor = this.setColor.bind(this);
-        this.showCanvas = this.showCanvas.bind(this);
-        this.hideCanvas = this.hideCanvas.bind(this);
     }
 
     setColor = (bg, font) => {
         this.setState({
             fontColor: font,
             bgColor: bg,
+            nameColor: font,
         });
+    }
+
+    hoverFunc = () => {
+        let newColor = colors[Math.floor(Math.random() * colors.length)];
+        while(newColor === this.state.nameColor)
+            newColor = colors[Math.floor(Math.random() * colors.length)];
+        this.setState({
+            nameColor: newColor,
+        })
+        console.log(this.state.nameColor);
     }
 
     showCanvas = () => {
         this.setState({
             canvas: true,
         });
-        console.log(this.state.canvas);
+        //console.log(this.state.canvas);
     }
     hideCanvas = () => {
         this.setState({
             canvas: false,
         });
-        console.log(this.state.canvas);
+        //console.log(this.state.canvas);
     }
 
 
     render() {
-        console.log("projects: " , myProjects);
         return (
             <div id="appDiv" style={{background: this.state.bgColor, color: this.state.fontColor}}>
                 
@@ -67,7 +85,9 @@ class App extends Component {
                 <Regular
                         fontColor={this.state.fontColor}
                         bgColor={this.state.bgColor}
+                        nameColor={this.state.nameColor}
                         setColor={this.setColor}
+                        hoverFunc={this.hoverFunc}
                         data={data}></Regular>
                 
             </div>

@@ -11,7 +11,7 @@ export default class Regular extends React.Component {
 	    	<div className="mainDiv" style={{background: this.props.bgColor, color: this.props.fontColor}}>
 				<div id="title">
 					<div id="title_content">
-						<h1 id="name">jodie wei</h1>
+						<h1 id="name" style={{color: this.props.nameColor}} onMouseOver={this.props.hoverFunc}>jodie wei</h1>
 						<h3 id="tagline">likes software, art, and tomato scrambled eggs<br/><br/><br/><br/><br/></h3>
 					</div>
 				</div>
