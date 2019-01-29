@@ -53,20 +53,17 @@ class App extends Component {
         this.setState({
             nameColor: newColor,
         })
-        console.log(this.state.nameColor);
     }
 
     showCanvas = () => {
         this.setState({
             canvas: true,
         });
-        //console.log(this.state.canvas);
     }
     hideCanvas = () => {
         this.setState({
             canvas: false,
         });
-        //console.log(this.state.canvas);
     }
 
 
