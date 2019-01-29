@@ -23,11 +23,6 @@ const Div = styled.div`
 export default class App extends React.Component {
 	constructor(props) {
 		super(props);
-		this.onMouseDown = this.onMouseDown.bind(this);
-		this.onMouseMove = this.onMouseMove.bind(this);
-		this.endPaintEvent = this.endPaintEvent.bind(this);
-		this.onColorClick = this.onColorClick.bind(this);
-		this.handleChange = this.handleChange.bind(this)
 		this.state = {
 			myStrokeStyle: 'red',
 			lineWidth: 5,
@@ -44,7 +39,7 @@ export default class App extends React.Component {
 	line = [];
 	prevPos = { offsetX: 0, offsetY: 0 };
 
-	onMouseDown({ nativeEvent }) {
+	onMouseDown = ({ nativeEvent }) => {
 		this.prevPos = nativeEvent;
 		this.isPainting = true;
 		
@@ -52,7 +47,7 @@ export default class App extends React.Component {
 		this.paint(this.prevPos, offSetData, this.state.myStrokeStyle)
 
 	}
-	onMouseMove({ nativeEvent }) {
+	onMouseMove = ({ nativeEvent })=> {
 		if (this.isPainting) {
 			const offSetData = nativeEvent;
 			// Set the start and stop position of the paint event.
@@ -65,12 +60,12 @@ export default class App extends React.Component {
 			this.paint(this.prevPos, offSetData, this.state.myStrokeStyle);
 		}
 	}
-	endPaintEvent() {
+	endPaintEvent = () => {
 		if (this.isPainting) {
 			this.isPainting = false;
 		}
 	}
-	paint(prevPos, currPos, strokeStyle) {
+	paint = (prevPos, currPos, strokeStyle) => {
 		const { offsetX, offsetY } = currPos;
 		const { offsetX: x, offsetY: y } = prevPos;
 
@@ -84,7 +79,7 @@ export default class App extends React.Component {
 		this.ctx.stroke();
 		this.prevPos = { offsetX, offsetY };
 	}
-	onColorClick(e) {
+	onColorClick = (e) => {
 	    //this.myStrokeStyle = window.getComputedStyle(e.target, null).getPropertyValue("background-color");
 	    this.setState({
 			myStrokeStyle: window.getComputedStyle(e.target, null).getPropertyValue("background-color"),
@@ -92,12 +87,16 @@ export default class App extends React.Component {
 		})
 		this.ctx.lineWidth = 5;
 	}
-	handleChange(event) {
+	handleChange = (event) => {
 	    this.setState({userName: event.target.value});
-	  }
+	}
+
+	clearCanvas = () => {
+		this.ctx.clearRect(20, 20, 1500, 1000);
+	}
 
 
-	componentDidMount() {
+	componentDidMount = () => {
 		//get viewport dimensions
 		this.setState({ width: window.innerWidth, height: window.innerHeight });
 		// Here we set up the properties of the canvas element. 
@@ -133,6 +132,8 @@ export default class App extends React.Component {
 					<Div style={{backgroundColor: 'yellow'}} onClick={this.onColorClick}></Div>
 					<Div style={{backgroundColor: 'blue'}} onClick={this.onColorClick}></Div>
 					<Div style={{backgroundColor: 'pink'}} onClick={this.onColorClick}></Div>
+					<img src={EraserIcon} style={{height: '20px', width: '20px', border: '1px solid black'}}
+						onClick={this.clearCanvas}></img>
 				</div>
 				<div>
 					<canvas className="canvas"

@@ -30,7 +30,7 @@ export default class StyleOptions extends React.Component {
 		    		<option className="button" value='2'>Pantone 2017 Mode</option>
 		    		<option className="button" value='3'>Kids' Zone</option>
 		    	</select>
-		    	<button id="option_select" onClick={() => this.getColors()}>Go</button>
+		    	<button id="option_select" onClick={() => this.getColors()}>lessgettit</button>
 	    	</div>
 	    )
 }

@@ -15,7 +15,9 @@ body {
 	z-index: -1;
 }
 
-
+.project_image {
+	height: 15em;
+}
 
 #title, #profile {
 	display: inline-block;

@@ -4,49 +4,57 @@
 			"id": 1,
 			"title": "paint4me: an online painting app",
 			"info": "takeaways: javascript, react.js, heroku, aws",
-			"url": "http://paint4me.herokuapp.com/"
+			"url": "http://paint4me.herokuapp.com/",
+			"image": "paint4me.png"
 		},
 		{
 			"id": 2,
 			"title": "news article analyzer: sentiment analysis using ibm watson",
 			"info": "takeaways: watson api, natural language understanding, developing an app in 24 hours!!!",
-			"url": ""
+			"url": "",
+			"image": ""
 		},
 		{
 			"id": 3,
 			"title": "college students: a data science project on demographics",
 			"info": "takeaways: python, tensorflow, tableau, spark, mapreduce, impala, vega, machine learning models, data visualization",
-			"url": ""
+			"url": "",
+			"image": ""
 		},
 		{
 			"id": 4,
 			"title": "palm: a redesigned container lid for patients with hand disabilities",
 			"info": "takeaways: design thinking, prototyping, user testing, keeping fingers safe while sawing apart plastic and metal",
-			"url": ""
+			"url": "",
+			"image": ""
 		},
 		{
 			"id": 5,
 			"title": "mealhop: a food ordering coordinater for your chat group",
 			"info": "takeaways: javascript, using an api [cisco spark], developing an mvp in 36 hours",
-			"url": "https://github.com/jrw192/mealhop"
+			"url": "https://github.com/jrw192/mealhop",
+			"image": ""
 		},
 		{
 			"id": 6,
 			"title": "spotify analytics: a web app to view your spotify listening data",
 			"info": "takeaways: javascript, using an api [spotify], express, node.js, pug",
-			"url": "https://github.com/jrw192/spotify-analytics"
+			"url": "https://github.com/jrw192/spotify-analytics",
+			"image": ""
 		},
 		{
 			"id": 7,
 			"title": "backend and database for brew bike coffee's mobile app",
 			"info": "takeaways: mongodb, node.js, working with clients",
-			"url": ""
+			"url": "",
+			"image": ""
 		},
 		{
 			"id": 8,
 			"title": "user-friendly interface for emotionalytics: a mood-tracking app",
 			"info": "takeaways: human-computer interaction, ui/ux, wireframing, user testing, front-end dev",
-			"url": ""
+			"url": "",
+			"image": ""
 		}
 	]
 }
