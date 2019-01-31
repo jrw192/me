@@ -14,14 +14,27 @@ export default class ProjectInfo extends React.Component {
 				</tr>
 			</table>
 		);*/
-		return (
-			<div className="project_info" style={{background: this.props.bgColor, color: this.props.fontColor}}>
-				<img style={{display:'inline-block'}} src={require(`../static/data/${this.props.projectImg}`)} 
-					alt={this.props.projectTitle} 
-					className="project_image"/>
-				<p style={{display: 'inline-block', width: '50%', marginLeft: '0.5em', wordWrap: 'break-word'}} 
-					className="project_writeup">{this.props.projectWriteup}</p>
-			</div>
-		)
+		if(this.props.projectLink != "") {
+			return (
+				<div className="project_info" style={{background: this.props.bgColor, color: this.props.fontColor}}>
+					<img style={{display:'inline-block'}} src={require(`../static/data/${this.props.projectImg}`)} 
+						alt={this.props.projectTitle} 
+						className="project_image"/>
+					<p style={{display: 'inline-block', width: '50%', marginLeft: '0.5em', wordWrap: 'break-word'}} 
+						className="project_writeup">{this.props.projectWriteup} <br/>check it out <a href={this.props.projectLink} target="_blank">here</a>.</p>
+				</div>
+			)
+		}
+		else {
+			return (
+				<div className="project_info" style={{background: this.props.bgColor, color: this.props.fontColor}}>
+					<img style={{display:'inline-block'}} src={require(`../static/data/${this.props.projectImg}`)} 
+						alt={this.props.projectTitle} 
+						className="project_image"/>
+					<p style={{display: 'inline-block', width: '50%', marginLeft: '0.5em', wordWrap: 'break-word'}} 
+						className="project_writeup">{this.props.projectWriteup}</p>
+				</div>
+			)
+		}
 	}
 }

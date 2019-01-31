@@ -26,7 +26,8 @@ export default class ProjectItem extends React.Component {
 				{this.state.checked ? 
 					<ProjectInfo projectImg={this.props.projectImg} 
 									projectWriteup={this.props.projectWriteup} 
-									projectTitle={this.props.projectTitle}> </ProjectInfo>
+									projectTitle={this.props.projectTitle}
+									projectLink={this.props.projectLink}> </ProjectInfo>
 				: null}  
 			</div>
 		);
