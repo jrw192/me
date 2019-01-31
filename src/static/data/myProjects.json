@@ -4,6 +4,7 @@
 			"id": 1,
 			"title": "paint4me: an online painting app",
 			"info": "takeaways: javascript, react.js, heroku, aws",
+			"writeup" : "i was bored and wanted to make something cute, and i decided to use react since i needed to learn it anyway. i started by setting up a basic canvas that can draw lines, then added palette, eraser, and image save options. eventually the images will be uploaded to aws (so i can see everyone's drawings) and the pen tool will have an increased customizability.",
 			"url": "http://paint4me.herokuapp.com/",
 			"image": "paint4me.png"
 		},
@@ -11,49 +12,47 @@
 			"id": 2,
 			"title": "news article analyzer: sentiment analysis using ibm watson",
 			"info": "takeaways: watson api, natural language understanding, developing an app in 24 hours!!!",
+			"writeup": "during my internship at ibm, we got to participate in a hackathon with access to various ibm watson apis. we decided to analyze a body of text based on sentiment and keywords, as a way for people to closer examine the quality of their news and find topics for future research. my role in the team was server-side programming, including handling calls to and responses from the ibm watson api, and returning data to the frontend.",
 			"url": "",
-			"image": ""
+			"image": "nlu_ibm.png"
 		},
 		{
 			"id": 3,
 			"title": "college students: a data science project on demographics",
 			"info": "takeaways: python, tensorflow, tableau, spark, mapreduce, impala, vega, machine learning models, data visualization",
+			"writeup": "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
 			"url": "",
-			"image": ""
+			"image": "datascience_1.png"
 		},
 		{
 			"id": 4,
-			"title": "palm: a redesigned container lid for patients with hand disabilities",
-			"info": "takeaways: design thinking, prototyping, user testing, keeping fingers safe while sawing apart plastic and metal",
+			"title": "collapsible technology and the portable lunch problem space",
+			"info": "takeaways: design thinking, supply chain analysis, market analysis, ip research, business model synthesis",
+			"writeup": "based on initial problem space and stakeholder research, we identified the portable lunch space as a potential whitespace for innovation. we iterated upon prototypes based on user centered design research and benchmarking features across competitors. we also performed a supply chain analysis to determine the best manufacturing materials and processes, which helped us finalize our prototype design.",
 			"url": "",
-			"image": ""
+			"image": "lunchbox.png"
 		},
 		{
 			"id": 5,
-			"title": "mealhop: a food ordering coordinater for your chat group",
-			"info": "takeaways: javascript, using an api [cisco spark], developing an mvp in 36 hours",
-			"url": "https://github.com/jrw192/mealhop",
-			"image": ""
+			"title": "palm: accessibility in the palm of your hand",
+			"info": "takeaways: design thinking, prototyping, user testing, keeping fingers safe while sawing apart plastic and metal",
+			"writeup": "for my design thinking class with a focus on human interaction and user testing, we were tasked with developing a container-opening solution for individuals with hand mobility impairment. we developed a rough prototype of a sliding lid that could be opened with the palm of the hand.",
+			"url": "",
+			"image": "palm.png"
 		},
 		{
 			"id": 6,
-			"title": "spotify analytics: a web app to view your spotify listening data",
-			"info": "takeaways: javascript, using an api [spotify], express, node.js, pug",
-			"url": "https://github.com/jrw192/spotify-analytics",
-			"image": ""
+			"title": "mealhop: a food ordering coordinater for your chat group",
+			"info": "takeaways: javascript, using an api [cisco spark], developing an mvp in 36 hours",
+			"writeup": "i participated in my first hackathon in 2017 with two friends. we wanted to utilize the cisco spark api to create a simple project that we could comfortably finish within 48 hours, so we built a chat bot for cisco spark that allowed groups to coordinate lunch orders. this was our first real experience with javascript, and it was a very fun but also educational experience.",
+			"url": "https://github.com/jrw192/mealhop",
+			"image": "mealhop.png"
 		},
 		{
 			"id": 7,
-			"title": "backend and database for brew bike coffee's mobile app",
-			"info": "takeaways: mongodb, node.js, working with clients",
-			"url": "",
-			"image": ""
-		},
-		{
-			"id": 8,
-			"title": "user-friendly interface for emotionalytics: a mood-tracking app",
-			"info": "takeaways: human-computer interaction, ui/ux, wireframing, user testing, front-end dev",
-			"url": "",
+			"title": "spotify analytics: a web app to view your spotify listening data",
+			"info": "takeaways: javascript, using an api [spotify], express, node.js, pug",
+			"url": "https://github.com/jrw192/spotify-analytics",
 			"image": ""
 		}
 	]

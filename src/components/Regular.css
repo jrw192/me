@@ -15,8 +15,40 @@ body {
 	z-index: -1;
 }
 
+#projects_container {
+	text-align: left;
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+#projects {
+	padding-top: 5%;
+	margin-left: 25%;
+	text-align: center;
+}
+
 .project_image {
-	height: 15em;
+	/*height: 15em;*/
+	width: 20em;
+}
+
+.project_item {
+	margin-bottom: 2em;
+}
+
+input {
+	margin-right: 2em;
+}
+
+.project_info {
+	width: 50%;
+	margin-bottom: 2em;
+}
+
+.project_writeup {
+	vertical-align: top;
 }
 
 #title, #profile {
@@ -47,21 +79,8 @@ body {
 
 }
 
-#projects {
-	padding-top: 5%;
-	margin-left: auto;
-	text-align: center;
-}
 
-#projects_container {
-	text-align: left;
-	display: inline-block;
-	width: auto;
-}
 
-.project_item {
-	margin-bottom: 2em;
-}
 
 #tagline {
 	font-size: .8em;

@@ -20,6 +20,7 @@ export default class Projects extends React.Component {
 							projectInfo={project.info} 
 							projectLink={project.url}
 							projectImg={project.image}
+							projectWriteup={project.writeup}
 							></ProjectItem></div>
 			)
 		);
