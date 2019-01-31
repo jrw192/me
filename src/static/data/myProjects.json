@@ -1,6 +1,13 @@
 {
 	"projects": [
 		{
+			"id": 8,
+			"title": "just some shapes",
+			"info": "playing around with webgl, three.js and javascript",
+			"writeup": "yup",
+			"image": "shapez.gif"
+		},
+		{
 			"id": 1,
 			"title": "paint4me: an online painting app",
 			"info": "takeaways: javascript, react.js, heroku, aws",

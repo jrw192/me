@@ -45,6 +45,7 @@ input {
 .project_info {
 	width: 50%;
 	margin-bottom: 2em;
+	margin-left: 2em;
 }
 
 .project_writeup {
