@@ -27,6 +27,7 @@ export default class Projects extends React.Component {
 
 	    return (
 			<div id="projects_container">
+				<h4>just some stuff</h4>
 				{dataList}
 			</div>
 			

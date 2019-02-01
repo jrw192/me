@@ -19,10 +19,10 @@ export default class ProjectItem extends React.Component {
 	    return (
 			<div className="project_item">
 				
-				<p className="item"><input type="checkbox"
+				<p className="header"><input type="checkbox"
 											onClick={() => this.checked(this)}/>
 									{this.props.projectTitle}</p>
-				<p className="tab">({this.props.projectInfo});</p>
+				<p className="tab">> {this.props.projectInfo};</p>
 				{this.state.checked ? 
 					<ProjectInfo projectImg={this.props.projectImg} 
 									projectWriteup={this.props.projectWriteup} 
