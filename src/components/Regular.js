@@ -30,9 +30,6 @@ export default class Regular extends React.Component {
 				<div id="projects" style={{background: this.props.bgColor}}>
                     <Projects items={this.props.data}></Projects>
                 </div>
-                <div>
-                	<a href="https://github.com/jrw192" target="blank_">github</a>
-                </div>
 			</div>
 		);
 		}

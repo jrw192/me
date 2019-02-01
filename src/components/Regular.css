@@ -70,6 +70,8 @@ input {
 
 }
 
+
+
 #title {
 	text-align: center;
 	font-size: 1.5em;
@@ -105,8 +107,8 @@ input {
 
 .item {
 	padding-left: 1%;
-	padding: 0px;
-	line-height: 0.2;
+	margin-top: 0px;
+	/*line-height: 0.2;*/
 	font-size: 0.9em;
 }
 
@@ -117,4 +119,47 @@ input {
 	margin-left: 2em;
 	padding-bottom: 0em;
 	font-size: .9em;
+}
+
+@media only screen {
+
+	.mainDiv {
+		margin-left: 1%;
+	}
+
+	#title {
+		width: 80%;
+		left: 0;
+	}
+
+
+	#name {
+		font-size: 1.3em;
+		white-space: nowrap;
+	}
+	#tagline {
+		line-height: 1.1em;
+		word-wrap: break-word;
+	}
+
+	.header {
+		line-height: 1.1em;
+		font-color: blue;
+	}
+
+	#projects {
+		text-align: left;
+		margin-left: 0;
+		left: 0;
+	}
+	.project_writeup {
+		width: 100%;
+	}
+	input {
+		margin-left: 2%;
+	}
+	#projects_container {
+		left: 0;
+		position: relative;
+	}
 }
