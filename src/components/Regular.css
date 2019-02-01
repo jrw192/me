@@ -121,7 +121,7 @@ input {
 	font-size: .9em;
 }
 
-@media only screen {
+@media only screen and (max-width: 800)  {
 
 	.mainDiv {
 		margin-left: 1%;
