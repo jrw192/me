@@ -1,0 +1,75 @@
+{
+	"projects": [
+		{
+			"id": 9,
+			"title": "particle simulation with random movement",
+			"info": "webgl, three.js, javascript, a lot of math i probably should have already known",
+			"writeup": "given a particle count and a speed factor, particles will move in a randomly generated path. not sure why i made this.",
+			"url": "https://jrw192.github.io/particlebois/",
+			"image": "particlebois.gif"
+		},
+		{
+			"id": 8,
+			"title": "just some shapes",
+			"info": "playing around with webgl, three.js and javascript",
+			"writeup": "first run of three.js. click and drag on website to view different angles.",
+			"url": "https://jrw192.github.io/graffix/",
+			"image": "shapez.gif"
+		},
+		{
+			"id": 1,
+			"title": "paint4me: an online painting app",
+			"info": "javascript, react.js, heroku, aws",
+			"writeup" : "i was bored and wanted to make something cute.",
+			"url": "http://paint4me.herokuapp.com/",
+			"image": "paint4me.png"
+		},
+		{
+			"id": 2,
+			"title": "news article analyzer: sentiment analysis using ibm watson",
+			"info": "watson api, natural language understanding, developing an app in 24 hours!!!",
+			"writeup": "during my internship at ibm, we got to participate in a hackathon with access to various ibm watson apis. we decided to analyze a body of text based on sentiment and keywords, as a way for people to closer examine the quality of their news and find topics for future research. my role in the team was server-side programming, including handling calls to and responses from the ibm watson api, and returning data to the frontend.",
+			"url": "",
+			"image": "nlu_ibm.png"
+		},
+		{
+			"id": 3,
+			"title": "college students: a data science project on demographics",
+			"info": "python, tensorflow, tableau, spark, mapreduce, impala, vega, machine learning models, data visualization",
+			"writeup": "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+			"url": "",
+			"image": "datascience_1.png"
+		},
+		{
+			"id": 4,
+			"title": "collapsible technology and the portable lunch problem space",
+			"info": "design thinking, supply chain analysis, market analysis, ip research, business model synthesis",
+			"writeup": "based on initial problem space and stakeholder research, we identified the portable lunch space as a potential whitespace for innovation. we iterated upon prototypes based on user centered design research and benchmarking features across competitors. we also performed a supply chain analysis to determine the best manufacturing materials and processes, which helped us finalize our prototype design.",
+			"url": "",
+			"image": "lunchbox.png"
+		},
+		{
+			"id": 5,
+			"title": "palm: accessibility in the palm of your hand",
+			"info": "design thinking, prototyping, user testing, keeping fingers safe while sawing apart plastic and metal",
+			"writeup": "for my design thinking class with a focus on human interaction and user testing, we were tasked with developing a container-opening solution for individuals with hand mobility impairment. we developed a rough prototype of a sliding lid that could be opened with the palm of the hand.",
+			"url": "",
+			"image": "palm.png"
+		},
+		{
+			"id": 6,
+			"title": "mealhop: a food ordering coordinater for your chat group",
+			"info": "javascript, using an api [cisco spark], developing an mvp in 36 hours",
+			"writeup": "i participated in my first hackathon in 2017 with two friends. we wanted to utilize the cisco spark api to create a simple project that we could comfortably finish within 48 hours, so we built a chat bot for cisco spark that allowed groups to coordinate lunch orders. this was our first real experience with javascript, and it was a very fun but also educational experience.",
+			"url": "https://github.com/jrw192/mealhop",
+			"image": "mealhop.png"
+		},
+		{
+			"id": 7,
+			"title": "spotify analytics: a web app to view your spotify listening data",
+			"info": "javascript, using an api [spotify], express, node.js, pug",
+			"url": "https://github.com/jrw192/spotify-analytics",
+			"image": ""
+		}
+	]
+}

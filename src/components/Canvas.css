@@ -1,0 +1,22 @@
+.palette {
+	display: inline-block;
+	float: left;
+	z-index: 1;
+}
+
+.canvas {
+	position:relative;
+	top:20;
+	left:15;
+	z-index: 0;
+
+
+}
+.label {
+	font-size: 1em;
+}
+
+.right {
+	float: right;
+	margin-right: 5%;
+}
