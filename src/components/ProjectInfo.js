@@ -20,7 +20,7 @@ export default class ProjectInfo extends React.Component {
 					<img style={{display:'inline-block'}} src={require(`../static/data/${this.props.projectImg}`)} 
 						alt={this.props.projectTitle} 
 						className="project_image"/>
-					<p style={{display: 'inline-block', width: '50%', marginLeft: '0.5em', wordWrap: 'break-word'}} 
+					<p 
 						className="project_writeup">{this.props.projectWriteup} <br/>check it out <a href={this.props.projectLink} target="_blank">here</a>.</p>
 				</div>
 			)
@@ -32,8 +32,6 @@ export default class ProjectInfo extends React.Component {
 						alt={this.props.projectTitle} 
 						className="project_image"/>
 					<p className="project_writeup"
-						style={{wordWrap: 'break-word',
-							display: 'inline-block'}}
 					>{this.props.projectWriteup}</p>
 				</div>
 			)

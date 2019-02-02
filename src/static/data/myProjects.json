@@ -28,7 +28,7 @@
 			"id": 2,
 			"title": "news article analyzer: sentiment analysis using ibm watson",
 			"info": "watson api, natural language understanding, team hacking",
-			"writeup": "during my internship at ibm, we got to participate in a hackathon with access to various ibm watson apis. we decided to analyze a body of text based on sentiment and keywordsmy role in the team was server-side programming, including handling api calls and responses, and returning data to the frontend.",
+			"writeup": "during my internship at ibm, we got to participate in a hackathon with access to various ibm watson apis. we decided to analyze a body of text based on sentiment and keywords. my role in the team was server-side programming, including handling api calls and responses, and returning data to the frontend.",
 			"url": "",
 			"image": "nlu_ibm.png"
 		},

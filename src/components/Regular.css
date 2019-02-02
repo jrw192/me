@@ -7,7 +7,7 @@ body {
 }
 
 .mainDiv {
-	height: 100%;
+	height: 200%;
 	width: 100%;
 	padding-bottom: 10em;
 	position: absolute;
@@ -65,10 +65,10 @@ body {
 		vertical-align: top;
 		margin-top: 0;
 		margin-left: 0.5em; 
+		width: 50%;
 		word-wrap: break-word;
 		display: inline-block;
 	}
-
 	#title, #profile {
 		display: inline-block;
 	}
@@ -126,12 +126,20 @@ body {
 		margin-right: 2em;
 	}
 
+	
+	.header {
+		display: block;
+		font-size: 1.1em;
+		line-height: 1;
+		padding-top: 1em;
+	}
+
 	.project_info {
-		width: 80%;
+		width: 100%;
 		margin-bottom: 2em;
 		margin-left: 2em;
 		font-size: 0.8em;
-		display: inline-block;
+		display: block;
 
 	}
 
@@ -143,8 +151,7 @@ body {
 		vertical-align: top;
 		margin-top: 0;
 		margin-left: 0.5em; 
-		word-wrap: break-word;
-		display: inline-block;
+		width: 80%;
 	}
 
 
@@ -172,15 +179,9 @@ body {
 
 	#tagline {
 		font-size: .7em;
-		width: 800%;
+		word-wrap: break-word;
 	}
 
-	.header {
-		display: block;
-		font-size: 1.1em;
-		line-height: 0.5;
-		padding-top: 1em;
-	}
 
 	.item {
 		padding-left: 1%;
