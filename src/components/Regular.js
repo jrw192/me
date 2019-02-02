@@ -27,9 +27,7 @@ export default class Regular extends React.Component {
 						<p className="item">software development intern @ deep dish tech [summer 2017];</p>
 				</div>
 
-				<div id="projects" style={{background: this.props.bgColor}}>
                     <Projects items={this.props.data}></Projects>
-                </div>
 			</div>
 		);
 		}
