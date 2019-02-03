@@ -6,6 +6,10 @@ body {
 	position: fixed;
 }
 
+a {
+	color: inherit;
+}
+
 .mainDiv {
 	height: 200%;
 	width: 100%;

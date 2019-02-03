@@ -13,7 +13,9 @@ export default class Regular extends React.Component {
 					<div id="title_content">
 						<br id="item" />
 						<h1 id="name" style={{color: this.props.nameColor}} onMouseOver={this.props.hoverFunc}>jodie wei;</h1>
-						<h3 id="tagline">> likes code, art, and tomato scrambled eggs<br/><br/><br/><br/><br/></h3>
+						<h3 id="tagline">> likes <a href="https://github.com/jrw192" target="_blank">code</a>,&nbsp;
+											<a href="https://www.instagram.com/f.ishbrains/" target="_blank">art</a>, 
+											and tomato scrambled eggs<br/><br/><br/><br/><br/></h3>
 					</div>
 				</div>
 
@@ -26,6 +28,7 @@ export default class Regular extends React.Component {
 						<p className="item">software development intern @ ibm [summer 2018];</p>
 						<p className="item">software development intern @ deep dish tech [summer 2017];</p>
 				</div>
+				<a href="google.com">link</a>
 
                     <Projects items={this.props.data} bgColor={this.props.bgColor}></Projects>
 			</div>
