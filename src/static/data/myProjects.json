@@ -1,6 +1,14 @@
 {
 	"projects": [
 		{
+			"id": 3,
+			"title": "reminders: currently wip",
+			"info": "webgl, three.js, javascript, chinese language",
+			"writeup": "TOP SECRET!!!!!!!!!!!",
+			"url": "",
+			"image": "reminders.gif"
+		},
+		{
 			"id": 9,
 			"title": "particle simulation with random movement",
 			"info": "webgl, three.js, javascript, a lot of math i probably should have already known",
