@@ -92,7 +92,7 @@ export default class App extends React.Component {
 	}
 
 	clearCanvas = () => {
-		this.ctx.clearRect(20, 20, 1500, 1000);
+		this.ctx.clearRect(0, 0, 2000, 1500);
 	}
 
 
@@ -100,12 +100,9 @@ export default class App extends React.Component {
 		//get viewport dimensions
 		this.setState({ width: window.innerWidth, height: window.innerHeight });
 		// Here we set up the properties of the canvas element. 
-		this.canvas.width = 1500;
-		this.canvas.height = 1000;
+		this.canvas.width = window.innerWidth;
+		this.canvas.height = window.innerHeight;
 		this.ctx = this.canvas.getContext('2d');
-		this.ctx.fillStyle = 'black';
-		//this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
-
 		this.ctx.lineJoin = 'round';
 		this.ctx.lineCap = 'round';
 		this.ctx.lineWidth = 5;

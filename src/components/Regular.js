@@ -28,9 +28,13 @@ export default class Regular extends React.Component {
 						<p className="item">computer science + design @ northwestern university [2015-2019];<br/></p>
 						<p className="header">> past:</p>
 						<p className="item">software development intern @ ibm [summer 2018];</p>
-						<p className="item">software development intern @ deep dish tech [summer 2017];</p>
+						<p className="item">software development intern @ deep dish tech [summer 2017];<br/><br/></p>
+						<p className="header">
+							<a href="https://www.linkedin.com/in/jodie-wei-762522a1/"target="_blank">linkedin</a>&nbsp;
+							<a href="" onClick={() => alert("jodiewei2019 [at] u [dot] northwestern [dot] edu")}>email</a></p>
 				</div>
-                    <Projects items={this.props.data} bgColor={this.props.bgColor}></Projects>
+
+				<Projects items={this.props.data} bgColor={this.props.bgColor}></Projects>
 			</div>
 		);
 		}

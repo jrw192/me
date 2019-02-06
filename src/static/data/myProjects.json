@@ -25,6 +25,14 @@
 			"image": "shapez.gif"
 		},
 		{
+			"id": 4,
+			"title": "jodie ruodi wei: my personal website",
+			"info": "javascript, react.js, html/css",
+			"writeup": "yup",
+			"url": "https://jodieruodiwei.herokuapp.com/",
+			"image": "website.png"
+		},
+		{
 			"id": 1,
 			"title": "paint4me: an online painting app",
 			"info": "javascript, react.js, html5 canvas",
