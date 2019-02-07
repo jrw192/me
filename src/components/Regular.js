@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Regular.css';
 import Projects from './Projects.js';
 import StyleOptions from './StyleOptions';
+import Resume from '../static/data/resume.png'
 
 
 
@@ -31,7 +32,8 @@ export default class Regular extends React.Component {
 						<p className="item">software development intern @ deep dish tech [summer 2017];<br/><br/></p>
 						<p className="header">
 							<a href="https://www.linkedin.com/in/jodie-wei-762522a1/"target="_blank">linkedin</a>&nbsp;
-							<a href="" onClick={() => alert("jodiewei2019 [at] u [dot] northwestern [dot] edu")}>email</a></p>
+							<a href="" onClick={() => alert("jodiewei2019 [at] u [dot] northwestern [dot] edu")}>email</a>&nbsp;
+							<a href={Resume} target="_blank">resume</a></p>
 				</div>
 
 				<Projects items={this.props.data} bgColor={this.props.bgColor}></Projects>

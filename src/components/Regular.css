@@ -11,9 +11,8 @@ a {
 }
 
 .mainDiv {
-	height: 200%;
-	width: 100%;
-	padding-bottom: 10em;
+	height: 100%;
+	width: 90%;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -22,7 +21,7 @@ a {
 
 #projects_container {
 	display: block;
-	height: 100%;
+	height: 200%;
 	width: 80%;
 	text-align: left;
 	margin-top: 5em;
