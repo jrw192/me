@@ -2,10 +2,10 @@
 	"projects": [
 		{
 			"id": 3,
-			"title": "reminders: currently wip",
-			"info": "webgl, three.js, javascript, chinese language",
-			"writeup": "TOP SECRET!!!!!!!!!!!",
-			"url": "",
+			"title": "reminders: 别忘记了",
+			"info": "javascript, being chinese american",
+			"writeup": "inspired by a subtle asian traits post about things asian parents say or do instead of saying \"i love you.\".",
+			"url": "https://jrw192.github.io/reminders/",
 			"image": "reminders.gif"
 		},
 		{
