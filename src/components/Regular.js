@@ -6,6 +6,10 @@ import Resume from '../static/data/resume.png'
 import Mario from '../static/data/mario.png'
 
 
+const bg = {
+	//backgroundImage: `url(${Mario})`
+}
+
 export default class Regular extends React.Component {
 	alert = (e) => {
 		alert("jodiewei2019 [at] u [dot] northwestern [dot] edu");
@@ -18,7 +22,7 @@ export default class Regular extends React.Component {
 	    	<div className="mainDiv" style={{background: this.props.bgColor, color: this.props.fontColor}}>
 				<div id="title">
 					<div id="title_content"
-						style={{backgroundImage: `url(${Mario})`}}>
+						style={bg}>
 						<br/>
 						<br id="item" />
 						<h1 id="name" 
