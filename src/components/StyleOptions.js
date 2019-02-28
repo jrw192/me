@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import './Regular.css';
+import '../App.css';
 
-
+// <option className="button"  value='1'>Frog Mode</option>
+// <option className="button" value='2'>Pantone 2017 Mode</option>
 
 
 export default class StyleOptions extends React.Component {
@@ -25,9 +26,7 @@ export default class StyleOptions extends React.Component {
 	    return (
 	    	<div>
 	    		<select id="options">
-		    		<option className="button" value='0'>Professional Mode</option>
-		    		<option className="button"  value='1'>Frog Mode</option>
-		    		<option className="button" value='2'>Pantone 2017 Mode</option>
+		    		<option className="button" value='0'>Please Hire Me</option>
 		    		<option className="button" value='3'>Kids' Zone</option>
 		    	</select>
 		    	<button id="option_select" onClick={() => this.getColors()}>go</button>

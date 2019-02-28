@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import EraserIcon from '../static/eraser_icon.png'
 import './Canvas.css'
-import './Regular.css'
+import '../App.css'
 
 
 /***

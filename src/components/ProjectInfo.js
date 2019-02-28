@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Regular.css';
+import '../App.css';
 
 
 export default class ProjectInfo extends React.Component {

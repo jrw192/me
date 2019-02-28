@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Regular.css';
+import '../App.css';
 import Projects from './Projects.js';
 import StyleOptions from './StyleOptions';
 import Resume from '../static/data/resume.png'
@@ -19,7 +19,7 @@ export default class Regular extends React.Component {
 	
 	render() {
 	    return (
-	    	<div className="mainDiv" style={{background: this.props.bgColor, color: this.props.fontColor}}>
+	    	<div className="mainDiv" style={{html: this.props.bgColor, background: this.props.bgColor, color: this.props.fontColor}}>
 				<div id="title">
 					<div id="title_content"
 						style={bg}>
