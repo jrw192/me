@@ -1,3 +1,3 @@
-pathetic excuse of a personal website
+real cowboys only !!!
 
 https://jodieruodiwei.herokuapp.com/
