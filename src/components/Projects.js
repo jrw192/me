@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Regular.css';
+import '../App.css';
 import ProjectItem from './ProjectItem.js';
 
 

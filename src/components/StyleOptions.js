@@ -11,7 +11,7 @@ export default class StyleOptions extends React.Component {
 		let e = document.getElementById("options");
 		let value = e.options[e.selectedIndex].value;
 		
-		if(value === '3') {
+		if(value === '2') {
 			this.props.showCanvas();
 			this.props.setColor('white', 'black');
 		}
@@ -26,8 +26,9 @@ export default class StyleOptions extends React.Component {
 	    return (
 	    	<div>
 	    		<select id="options">
-		    		<option className="button" value='0'>Please Hire Me</option>
-		    		<option className="button" value='3'>Kids' Zone</option>
+	    			<option className="button" value='0'> Default</option>
+		    		<option className="button" value='1'>Boring</option>
+		    		<option className="button" value='2'>Kids' Zone</option>
 		    	</select>
 		    	<button id="option_select" onClick={() => this.getColors()}>go</button>
 	    	</div>

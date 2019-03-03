@@ -56,13 +56,6 @@
 			"writeup": "i participated in my first hackathon in 2017 with two friends. we wanted to utilize the cisco spark api to create a simple project that we could comfortably finish within 36 hours, so we built a chat bot for cisco spark that allowed groups to coordinate lunch orders. this was our first real experience with javascript, and it was a very fun but also educational experience.",
 			"url": "https://github.com/jrw192/mealhop",
 			"image": "mealhop.png"
-		},
-		{
-			"id": 7,
-			"title": "PLEASE DON'T CLICK ME spotify analytics: a web app to view your spotify listening data",
-			"info": "javascript, spotify api, express, node.js, pug",
-			"url": "https://github.com/jrw192/spotify-analytics",
-			"image": ""
 		}
 	]
 }

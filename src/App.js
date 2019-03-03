@@ -3,15 +3,16 @@ import Regular from './components/Regular.js';
 import Projects from './components/Projects.js';
 import StyleOptions from './components/StyleOptions.js';
 import PaintCanvas from './components/PaintCanvas.js'
-import './components/Regular.css';
+import './App.css';
 import data from './static/data/myProjects.json';
 
 
 let themes = {
-    '0' : ['white', 'black'],
-    '1' : ['green', 'green'],
-    '2' : ['#FFD7F8', '#DCE5FF'],
-    '3' : 'paint'
+    '0' : ['#bababa', '#fcfcfc'],
+    '1' : ['white', 'black'],
+    '2' : 'paint',
+    '3' : ['green', 'green'],
+    '4' : ['#FFD7F8', '#DCE5FF'],
 }
 
 let colors = [
@@ -31,9 +32,9 @@ class App extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            fontColor: 'black',
-            bgColor: 'white',
-            nameColor: 'black',
+            fontColor: '#fcfcfc',
+            bgColor: '#bababa',
+            nameColor: '#fcfcfc',
             canvas: false,
         }
     }

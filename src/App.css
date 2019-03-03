@@ -1,22 +1,20 @@
-html, body {
+body {
 	font-family: 'Lucida Console', monaco, monospace ;
-	/*width: 100%;
-	height: 100%;*/
-	cursor: url(static/cursor1.png), auto;
-	pointer-events: auto;
-
-}
+	/*cursor: url(static/cursor1.png), auto;
+	pointer-events: auto;*/
+	}
 
 .appDiv {
 	position: fixed;
-	overflow: auto;
-	height: auto;
-	
+}
+
+a {
+	color: inherit;
 }
 
 .mainDiv {
 	height: 100%;
-	width: auto;
+	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -25,17 +23,16 @@ html, body {
 
 #projects_container {
 	display: block;
-	height: auto;
-	width: 100%;
+	height: 200%;
+	width: 75%;
 	text-align: left;
 	margin-top: 5em;
-	float: left;
-	/*position: absolute;*/
+	position: absolute;
 }
 
 .project_item {
-	margin-bottom: 2em;
-	font-size: 0.8em;
+		margin-bottom: 2em;
+		font-size: 0.8em;
 }
 
 #options {
@@ -51,9 +48,11 @@ html, body {
 }
 
 
+
+
 @media only screen and (min-width: 990px) {
 	#projects_container {
-		margin-left: 0;
+		padding-left: 25%;
 	}
 
 	input {
@@ -103,6 +102,7 @@ html, body {
 	#profile {
 		font-size: 0.8em;
 		margin-left: 5%;
+		width: 45%;
 
 	}
 
@@ -122,7 +122,7 @@ html, body {
 		padding-left: 1%;
 		margin-top: 0px;
 		/*line-height: 0.2;*/
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 }
 
@@ -139,7 +139,7 @@ html, body {
 	
 	.header {
 		display: block;
-		font-size: 1.1em;
+		font-size: 1.3em;
 		line-height: 1;
 		padding-top: 1em;
 	}
@@ -181,14 +181,13 @@ html, body {
 
 
 	#profile {
-		font-size: 0.8em;
 		margin-left: 3%;
 
 	}
 
 
 	#tagline {
-		font-size: .7em;
+		font-size: .8em;
 		word-wrap: break-word;
 	}
 
@@ -197,7 +196,7 @@ html, body {
 		padding-left: 1%;
 		margin-top: 0px;
 		/*line-height: 0.2;*/
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 	
 }
