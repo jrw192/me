@@ -32,9 +32,9 @@ class App extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            fontColor: '#fcfcfc',
-            bgColor: '#bababa',
-            nameColor: '#fcfcfc',
+            fontColor: 'black',
+            bgColor: 'white',
+            nameColor: 'black',
             canvas: false,
         }
     }

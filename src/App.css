@@ -12,6 +12,10 @@ a {
 	color: inherit;
 }
 
+.header .item {
+	font-family: 'Lucida Console', monaco, monospace ;
+}
+
 .mainDiv {
 	height: 100%;
 	width: 100%;
@@ -20,6 +24,10 @@ a {
 	left: 0;
 	z-index: -1;
 }
+
+/*#title_content {
+	border: solid black 1px;
+}*/
 
 #projects_container {
 	display: block;
@@ -45,6 +53,10 @@ a {
 
 #name {
 	line-height: 0.5;
+}
+
+#profile {
+	border: solid black 1px;
 }
 
 
@@ -96,13 +108,17 @@ a {
 	#title_content {
 		display: inline-block;
 		text-align: left;
+		margin-top: 8%;
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 
 
 	#profile {
 		font-size: 0.8em;
-		margin-left: 5%;
-		width: 45%;
+		/*margin-left: 5%;*/
+		width: 40%;
+		padding: 1%;
 
 	}
 
