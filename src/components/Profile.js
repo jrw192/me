@@ -4,11 +4,11 @@ import '../App.css';
 
 
 export default class Profile extends Component {
-	constructor(props) {
-		super(props)
-		this.state = {
-			
-		}
+
+	alert = (e) => {
+		alert("jodiewei2019 [at] u [dot] northwestern [dot] edu");
+		e.preventDefault();
+		return false;
 	}
 
 	render() {

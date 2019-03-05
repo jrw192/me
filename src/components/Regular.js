@@ -11,12 +11,6 @@ const bg = {
 }
 
 export default class Regular extends React.Component {
-	alert = (e) => {
-		alert("jodiewei2019 [at] u [dot] northwestern [dot] edu");
-		e.preventDefault();
-		return false;
-	}
-	
 	render() {
 	    return (
 	    	<div className="mainDiv" style={{html: this.props.bgColor, background: this.props.bgColor, color: this.props.fontColor}}>
