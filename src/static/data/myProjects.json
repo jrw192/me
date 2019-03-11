@@ -1,31 +1,34 @@
 {
 	"projects": [
 		{
-			"id": 3,
+			"title": "soundpong: the uncommonest hack",
+			"info": "javascript, p5.js",
+			"writeup": "my friends and i could only be at uncommonhacks @ uchicago for about 5 hours...so we made a (poorly) sound-controlled game of pong.",
+			"url": "https://uncommonestpong.appspot.com/",
+			"image": "soundpong.gif"
+		},
+		{
 			"title": "reminders: 别忘记了",
 			"info": "javascript, html5 canvas",
-			"writeup": "inspired by a subtle asian traits post about things asian parents say or do instead of saying \"i love you.\".",
+			"writeup": "inspired by a subtle asian traits post about things asian parents say or do instead of saying \"i love you.\" text was initially 3d shapes generated with three.js, but i realized it was overkill so text is now rendered on an html5 canvas.",
 			"url": "https://jrw192.github.io/reminders/",
 			"image": "reminders.png"
 		},
 		{
-			"id": 9,
 			"title": "particle simulation with random movement",
 			"info": "webgl, three.js, javascript, a lot of math i probably should have already known",
-			"writeup": "given a particle count and a speed factor, particles will move in a randomly generated path. not sure why i made this.",
+			"writeup": "given a particle count and a speed factor, particles will move in a randomly generated path. three.js to generate the particles, pure js for the random movement algorithm. not sure why i made this.",
 			"url": "https://jrw192.github.io/particlebois/",
 			"image": "particlebois.gif"
 		},
 		{
-			"id": 8,
 			"title": "just some shapes",
 			"info": "playing around with webgl, three.js and javascript",
-			"writeup": "first run of three.js. click and drag on website to view different angles.",
+			"writeup": "first run of three.js and first foray into computer graphics. click and drag on website to view different angles.",
 			"url": "https://jrw192.github.io/graffix/",
 			"image": "shapez.gif"
 		},
 		{
-			"id": 4,
 			"title": "jodie ruodi wei: my personal website",
 			"info": "javascript, react.js, html/css",
 			"writeup": "yup",
@@ -33,7 +36,6 @@
 			"image": "website.png"
 		},
 		{
-			"id": 1,
 			"title": "paint4me: an online painting app",
 			"info": "javascript, react.js, html5 canvas",
 			"writeup" : "i was bored and wanted to make something cute.",
@@ -41,7 +43,6 @@
 			"image": "paint4me.png"
 		},
 		{
-			"id": 2,
 			"title": "news article analyzer: sentiment analysis using ibm watson",
 			"info": "watson api, natural language understanding, team hacking",
 			"writeup": "during my internship at ibm, we got to participate in a hackathon with access to various ibm watson apis. we decided to analyze a body of text based on sentiment and keywords. my role in the team was server-side programming, including handling api calls and responses, and returning data to the frontend.",
@@ -50,11 +51,10 @@
 		},
 		
 		{
-			"id": 6,
 			"title": "mealhop: a food ordering coordinater for your chat group",
 			"info": "javascript, cisco spark api, our very first hackathon",
 			"writeup": "i participated in my first hackathon in 2017 with two friends. we wanted to utilize the cisco spark api to create a simple project that we could comfortably finish within 36 hours, so we built a chat bot for cisco spark that allowed groups to coordinate lunch orders. this was our first real experience with javascript, and it was a very fun but also educational experience.",
-			"url": "https://github.com/jrw192/mealhop",
+			"url": "",
 			"image": "mealhop.png"
 		}
 	]
