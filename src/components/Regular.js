@@ -4,6 +4,7 @@ import Projects from './Projects.js';
 import StyleOptions from './StyleOptions';
 import Mario from '../static/data/mario.png'
 import Profile from './Profile.js'
+import AsciiSquare, {TitleAscii} from './AsciiSquare'
 
 
 const bg = {
@@ -18,6 +19,7 @@ export default class Regular extends React.Component {
 					<div id="title_content"
 						style={bg}>
 						<br id="item" />
+						<TitleAscii/>
 						<h1 id="name" 
 							style={{color: this.props.nameColor}} onMouseOver={this.props.hoverFunc}>jodie wei;</h1>
 						<h3 id="tagline">> likes <a href="https://github.com/jrw192" target="_blank">code</a>,&nbsp;

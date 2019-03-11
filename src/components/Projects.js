@@ -27,7 +27,7 @@ export default class Projects extends React.Component {
 
 	    return (
 			<div id="projects_container" style={{background: this.props.bgColor}}>
-				<h4 className="header">just some stuff</h4>
+				<h4 className="header">things i made</h4>
 				{dataList}
 			</div>
 			
