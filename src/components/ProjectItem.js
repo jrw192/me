@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../App.css';
-import img from "../static/data/lunchbox.png";
 import ProjectInfo from './ProjectInfo.js'
 import ProjectPopup from './ProjectPopup.js'
 

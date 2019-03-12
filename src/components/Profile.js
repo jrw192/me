@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Resume from '../static/data/resume.png'
+import Resume from '../static/data/resume.pdf';
 import '../App.css';
 import AsciiSquare, {ProfileAscii} from './AsciiSquare'
 
