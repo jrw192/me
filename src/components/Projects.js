@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import ProjectItem from './ProjectItem.js';
+import OtherProjects from './OtherProjects.js';
 
 
 
@@ -29,6 +30,10 @@ export default class Projects extends React.Component {
 			<div id="projects_container" style={{background: this.props.bgColor}}>
 				<h4 className="header">things i made</h4>
 				{dataList}
+				<br />
+				<br />
+				<br />
+				<OtherProjects />
 			</div>
 			
 	);
