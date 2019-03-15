@@ -39,8 +39,10 @@ a {
 }
 
 .project_item {
-		margin-bottom: 2em;
-		font-size: 0.8em;
+	margin-bottom: 2em;
+	font-size: 0.8em;
+	word-wrap: break-word;
+	width: 50em;
 }
 
 #options {
